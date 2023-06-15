@@ -23,8 +23,8 @@ const AppTopbar = forwardRef((props, ref) => {
   }));
 
   return (
-    <div className="layout-topbar justify-content-center">
-      <Link href="/" className="layout-topbar-logo justify-content-center">
+    <div className="layout-topbar ">
+      <Link href="/" className="layout-topbar-logo ">
         <img
           src="/layout/images/logo/logo-white.png"
           width="77px"
@@ -34,25 +34,23 @@ const AppTopbar = forwardRef((props, ref) => {
         />
       </Link>
 
-      {/* <button
+      <button
         ref={menubuttonRef}
         type="button"
-        className="p-link layout-menu-button layout-topbar-button"
+        className="p-link layout-menu-button layout-topbar-button "
         onClick={onMenuToggle}
       >
-        <i className="pi pi-bars" />
-      </button> */}
+        <i className="pi pi-bars lg:hidden" />
+      </button>
 
-      {/* <button
+      <button
         ref={topbarmenubuttonRef}
         type="button"
         className="p-link layout-topbar-menu-button layout-topbar-button "
         onClick={showProfileSidebar}
       >
-        <i className="pi pi-ellipsis-v" />
-      </button> */}
-
-      <div></div>
+        {/* <i className="pi pi-ellipsis-v" /> */}
+      </button>
     </div>
   );
 });
