@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <link
             id="theme-css"
-            href={`/themes/lara-dark-indigo/theme.css`}
+            href={`/themes/lara-dark-blue/theme.css`}
             rel="stylesheet"
           ></link>
         </Head>

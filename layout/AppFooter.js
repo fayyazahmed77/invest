@@ -15,7 +15,7 @@ const AppFooter = () => {
         className="mr-2"
       />
       by
-      <span className="font-medium ml-2">FAYYAZ AHMED</span>
+      <span className="font-medium ml-2">Invest Vehicle App</span>
     </div>
   );
 };
